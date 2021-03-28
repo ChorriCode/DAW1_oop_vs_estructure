@@ -1,5 +1,7 @@
 package com.javier.oop_vs_estructure;
 
+import java.util.ArrayList;
+
 
 public class MainOOP {
 
@@ -17,7 +19,9 @@ public class MainOOP {
         // let's compact coords into an array for better management
         Coord[] squareCoods = {coord1, coord2, coord3, coord4};
         
-        // let's create a new class to represent Square
+        // let's create a new class to represent Square and one object for this class
+        Square square = new Square(squareCoods);
+        System.out.println(square);
     }
     
 }
