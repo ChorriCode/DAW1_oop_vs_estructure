@@ -30,10 +30,14 @@ public class MainEstructure {
         int y3 = 5;
         int x4 = 5;
         int y4 = 0;
-        
+
         // let's compact coords into an array for better management
         // And after we wil create a method for print coords
         int[] squareCoods = {x1, y1, x2, y2, x3, y3, x4, y4};
+
+        paintSaquare(x1, y1, x2, y2, x3, y3, x4, y4);
+        System.out.println("-------------------------------");
+        paintSaquare2(squareCoods);
     }
 
     public static void paintSaquare(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4) {
@@ -42,4 +46,9 @@ public class MainEstructure {
         System.out.println("Coord3: (" + x3 + "," + y3 + ")");
         System.out.println("Coord4: (" + x4 + "," + y4 + ")");
     }
-}
+
+    public static void paintSaquare2(int[] squareCoods) {
+        for (int i = 0; i < squareCoods.length - 1; i += 2) {
+            System.out.println("Coord" + i + ": (" + squareCoods[i] + "," + squareCoods[i + 1] + ")");
+        }
+    }
