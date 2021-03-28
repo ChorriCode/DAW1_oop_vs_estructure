@@ -17,7 +17,7 @@ public class MainOOP {
         // let's compact coords into an array for better management
         Coord[] squareCoods = {coord1, coord2, coord3, coord4};
         
-        
+        // let's create a new class to represent Square
     }
     
 }
