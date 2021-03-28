@@ -30,6 +30,14 @@ public class MainEstructure {
         int y3 = 5;
         int x4 = 5;
         int y4 = 0;
+        
+        // let's compact coords into an array for better management
     }
 
+    public static void paintSaquare(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4) {
+        System.out.println("Coord1: (" + x1 + "," + y1 + ")");
+        System.out.println("Coord2: (" + x2 + "," + y2 + ")");
+        System.out.println("Coord3: (" + x3 + "," + y3 + ")");
+        System.out.println("Coord4: (" + x4 + "," + y4 + ")");
+    }
 }
