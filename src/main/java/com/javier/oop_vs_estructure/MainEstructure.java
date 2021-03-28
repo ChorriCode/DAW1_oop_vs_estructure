@@ -22,6 +22,17 @@ public class MainEstructure {
 
         // let's create four coords to do square vertice coords, starting with (0,0)
         // And after we wil create a method for print coords
+        int x1 = 0;
+        int y1 = 0;
+        int x2 = 0;
+        int y2 = 5;
+        int x3 = 5;
+        int y3 = 5;
+        int x4 = 5;
+        int y4 = 0;
+
+        // let's compact coords into an array for better management
+        // And after we wil create a method for print coords
     }
 
 }
