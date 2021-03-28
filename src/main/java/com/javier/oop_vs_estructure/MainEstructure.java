@@ -17,9 +17,11 @@ public class MainEstructure {
     public static void main(String[] args) {
 
         // let's create two integer variables for coordenates x,y
- 
-    }
+        int x = 1;
+        int y = 0;
 
-  
+        // let's create four coords to do square vertice coords, starting with (0,0)
+        // And after we wil create a method for print coords
+    }
 
 }
