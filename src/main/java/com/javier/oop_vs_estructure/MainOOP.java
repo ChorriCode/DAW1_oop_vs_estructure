@@ -1,12 +1,13 @@
 package com.javier.oop_vs_estructure;
 
-import java.util.ArrayList;
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
 
 
 public class MainOOP {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
         // Let's create coord x,y with class Coord
         Coord coord = new Coord(0, 1);
         
@@ -22,6 +23,8 @@ public class MainOOP {
         // let's create a new class to represent Square and one object for this class
         Square square = new Square(squareCoods);
         System.out.println(square);
+
     }
+    
     
 }
